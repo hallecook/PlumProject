@@ -38,7 +38,7 @@ nav ul li a {
 }
 header {
   position: relative;
-  height: 640px;
+  height: 700px;
   background-image: url('https://i.ibb.co/0hPgfZ5/Screen-Shot-2024-03-14-at-2-56-08-PM.png');
   background-size: cover;
   background-position: center;
@@ -46,35 +46,44 @@ header {
 
 .header-content {
   position: absolute;
-  top: 400px; /* Adjusted to lower the logo/business name/slogan */
-  left: 100px; /* Provides spacing from the left */
+  left: 0; /* Provides spacing from the left */
+  bottom:0;
   color: #ffffff;
+  width: 100%; 
 }
-
+.overlay-box {
+    background-color: rgba(124, 41, 70, 0.75); /* Plum color with opacity */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 0px; /* Optional: Rounded corners */
+    display: inline-block; /* Only as wide as its content */
+    width: 100%;
+    box-sizing: border-box; 
+}
 .branding {
   display: flex;
   align-items: center;
 }
 
 .branding .logo {
-  height: 150px; /* Logo height to align with the business name */
+  height: 7rem; /* Logo height to align with the business name */
 }
 
 .branding h1 {
-  font-size: 500px;
+  font-size: 9rem;
   font-family: 'Outfit', sans-serif;
-  margin-left: 30px; /* Space between logo and business name */
-  color: #7C2946; /* Ensures business name is white */
+  margin-left: 20px; /* Space between logo and business name */
+  color: #ffffff; /* Ensures business name is white */
 }
 
 .header-content h2 {
-  font-size: 60px;
+  font-size: 2rem;
   font-family: 'Outfit', sans-serif;
-  margin-top: 15px; /* Space above the slogan */
+  margin-top: 20px; /* Space above the slogan */
   color: white; /* Ensures slogan is white */
+  margin-left: 135px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 768px) {
   .header-content {
     left: 10%; /* Adjusts spacing for smaller devices */
   }
@@ -84,12 +93,11 @@ header {
   }
 
   .branding h1 {
-    font-size: 100px; /* Adjust business name size for smaller devices */
+    font-size: 2.25rem; /* Adjust business name size for smaller devices */
   }
 
   .header-content h2 {
-    font-size: 25px; /* Adjust slogan size for smaller devices */
-    margin-left: 115px
+    font-size: 1.25rem; /* Adjust slogan size for smaller devices */
   }
 
   nav ul li a {
