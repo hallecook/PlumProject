@@ -67,244 +67,100 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }
 });
 </script>
+ 
 
-</body>
-</html>
-<script src="https://cdn01.jotfor.ms/static/prototype.forms.js?v=3.3.52465" type="text/javascript"></script>
-<script src="https://cdn02.jotfor.ms/static/jotform.forms.js?v=3.3.52465" type="text/javascript"></script>
-<script src="https://cdn03.jotfor.ms/js/punycode-1.4.1.min.js?v=3.3.52465" type="text/javascript" defer></script>
-<script src="https://cdn01.jotfor.ms/js/vendor/maskedinput_5.0.9.min.js?v=3.3.52465" type="text/javascript"></script>
-<script src="https://cdn01.jotfor.ms/s/umd/1aeeeec59c3/for-form-branding-footer.js?v=3.3.52465" type="text/javascript" defer></script>
-<script src="https://cdn02.jotfor.ms/js/vendor/smoothscroll.min.js?v=3.3.52465" type="text/javascript"></script>
-<script src="https://cdn03.jotfor.ms/js/errorNavigation.js?v=3.3.52465" type="text/javascript"></script>
-<script type="text/javascript">	JotForm.newDefaultTheme = true;
-	JotForm.extendsNewTheme = false;
-	JotForm.singleProduct = false;
-	JotForm.newPaymentUIForNewCreatedForms = false;
-	JotForm.texts = {"confirmEmail":"E-mail does not match","pleaseWait":"Please wait...","validateEmail":"You need to validate this e-mail","confirmClearForm":"Are you sure you want to clear the form","lessThan":"Your score should be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","required":"This field is required.","requireOne":"At least one field required.","requireEveryRow":"Every row is required.","requireEveryCell":"Every cell is required.","email":"Enter a valid e-mail address","alphabetic":"This field can only contain letters","numeric":"This field can only contain numeric values","alphanumeric":"This field can only contain letters and numbers.","cyrillic":"This field can only contain cyrillic characters","url":"This field can only contain a valid URL","currency":"This field can only contain currency values.","fillMask":"Field value must fill mask.","uploadExtensions":"You can only upload following files:","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","gradingScoreError":"Score total should only be less than or equal to","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","maxDigitsError":"The maximum digits allowed is","minCharactersError":"The number of characters should not be less than the minimum value:","maxCharactersError":"The number of characters should not be more than the maximum value:","freeEmailError":"Free email accounts are not allowed","minSelectionsError":"The minimum required number of selections is ","maxSelectionsError":"The maximum number of selections allowed is ","pastDatesDisallowed":"Date must not be in the past.","dateLimited":"This date is unavailable.","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","ageVerificationError":"You must be older than {minAge} years old to submit this form.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","chooseAFile_infoMessage":"Choose a file","maxFileSize_infoMessage":"Max. file size","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","ccInvalidNumber":"Credit Card Number is invalid.","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingProduct":"Please select at least one product.","ccMissingDonation":"Please enter numeric values for donation amount.","disallowDecimals":"Please enter a whole number.","restrictedDomain":"This domain is not allowed","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","requiredLegend":"All fields marked with * are required and must be filled.","geoPermissionTitle":"Permission Denied","geoPermissionDesc":"Check your browser's privacy settings.","geoNotAvailableTitle":"Position Unavailable","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoTimeoutTitle":"Timeout","geoTimeoutDesc":"Please check your internet connection and try again.","selectedTime":"Selected Time","formerSelectedTime":"Former Time","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","noSlotsAvailable":"No slots available","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","multipleError":"There are {count} errors on this page. Please correct them before moving on.","oneError":"There is {count} error on this page. Please correct it before moving on.","doneMessage":"Well done! All errors are fixed.","invalidTime":"Enter a valid time","doneButton":"Done","reviewSubmitText":"Review and Submit","nextButtonText":"Next","prevButtonText":"Previous","seeErrorsButton":"See Errors","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","soldOut":"Sold Out","justSoldOut":"Just Sold Out","selectionSoldOut":"Selection Sold Out","subProductItemsLeft":"({count} items left)","startButtonText":"START","submitButtonText":"Submit","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","reviewBackText":"Back to Form","seeAllText":"See All","progressMiddleText":"of","fieldError":"field has an error.","error":"Error"};
-	JotForm.newPaymentUI = true;
-	JotForm.replaceTagTest = true;
-	JotForm.submitError="jumpToFirstError";
-	window.addEventListener('DOMContentLoaded',function(){window.brandingFooter.init({"formID":240776993159170,"campaign":"powered_by_jotform_le","isCardForm":false,"isLegacyForm":true})});	JotForm.isFullSource = true;
-
-	JotForm.init(function(){
-	/*INIT-START*/
-      JotForm.setPhoneMaskingValidator( 'input_13_full', '\u0028\u0023\u0023\u0023\u0029 \u0023\u0023\u0023\u002d\u0023\u0023\u0023\u0023' );
-if (window.JotForm && JotForm.accessible) $('input_18').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_19').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_20').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_22').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_23').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_25').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_26').setAttribute('tabindex',0);
-	/*INIT-END*/
-	});
-
-   setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,{"name":"_nbsp_","qid":"9","text":"Submit","type":"control_button"},{"name":"clickTo","qid":"10","text":"Post a project","type":"control_head"},{"name":"name","qid":"11","text":"Name","type":"control_fullname"},{"name":"email","qid":"12","subLabel":"example@example.com","text":"E-mail","type":"control_email"},{"name":"phoneNumber13","qid":"13","text":"Phone Number","type":"control_phone"},null,null,null,null,{"description":"","name":"businessName","qid":"18","subLabel":"","text":"Business Name","type":"control_textbox"},{"description":"","name":"businessAddress","qid":"19","subLabel":"","text":"Business Address","type":"control_textbox"},{"description":"","name":"businessIndustry","qid":"20","subLabel":"","text":"Business Industry","type":"control_textbox"},null,{"description":"","mde":"No","name":"brieflyDescribe","qid":"22","subLabel":"","text":"Briefly describe your business","type":"control_textarea","wysiwyg":"Disable"},{"description":"","mde":"No","name":"describeThe","qid":"23","subLabel":"","text":"Describe the project in detail","type":"control_textarea","wysiwyg":"Disable"},null,{"description":"","name":"estimatedTotal","qid":"25","subLabel":"","text":"Estimated total hours to complete the project","type":"control_textbox"},{"description":"","name":"totalCompensation","qid":"26","subLabel":"","text":"Total compensation for the project","type":"control_textbox"}]);}, 20); 
-</script>
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/stylebuilder/static/form-common.css?v=8d43c84
-"/>
-<style type="text/css">@media print{*{-webkit-print-color-adjust: exact !important;color-adjust: exact !important;}.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
-<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.52465&themeRevisionID=63a2351435646363a50e3ee0"/>
-<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_styles.css?3.3.52465" />
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_feature.css?3.3.52465" />
-<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/stylebuilder/static/donationBox.css?v=3.3.52465">
-<style type="text/css" id="form-designer-style">
-    /* Injected CSS Code */
-/*PREFERENCES STYLE*/
-    .form-all {
-      font-family: Inter, sans-serif;
-    }
-  
-    .form-label.form-label-auto {
-      
-    display: block;
-    float: none;
-    text-align: left;
-    width: 100%;
-  
-    }
-  
-    .form-line {
-      margin-top: 12px 36px 12px 36px px;
-      margin-bottom: 12px 36px 12px 36px px;
-    }
-  
-    .form-all {
-      max-width: 752px;
-      width: 100%;
-    }
-  
-    .form-label.form-label-left,
-    .form-label.form-label-right,
-    .form-label.form-label-left.form-label-auto,
-    .form-label.form-label-right.form-label-auto {
-      width: 230px;
-    }
-  
-    .form-all {
-      font-size: 16px
-    }
-  
-  .supernova {
-    background-color: #c2708e;
-  }
-  .supernova body {
-    background: transparent;
-  }
-  
-    .supernova .form-all, .form-all {
-      background-color: #fffafb;
-    }
-  
-    .form-all {
-      color: #952d53;
-    }
-    .form-header-group .form-header {
-      color: #952d53;
-    }
-    .form-header-group .form-subHeader {
-      color: #952d53;
-    }
-    .form-label-top,
-    .form-label-left,
-    .form-label-right,
-    .form-html,
-    .form-checkbox-item label,
-    .form-radio-item label,
-    span.FITB .qb-checkbox-label,
-    span.FITB .qb-radiobox-label,
-    span.FITB .form-radio label,
-    span.FITB .form-checkbox label,
-    [data-blotid][data-type=checkbox] [data-labelid],
-    [data-blotid][data-type=radiobox] [data-labelid],
-    span.FITB-inptCont[data-type=checkbox] label,
-    span.FITB-inptCont[data-type=radiobox] label {
-      color: #952d53;
-    }
-    .form-sub-label {
-      color: #af476d;
-    }
-  
-    .form-textbox,
-    .form-textarea,
-    .form-dropdown,
-    .form-radio-other-input,
-    .form-checkbox-other-input,
-    .form-captcha input,
-    .form-spinner input {
-      background-color: #ffffff;
-    }
-  
-    .form-line-error {
-      overflow: hidden;
-      transition: none;
-      background-color: #ffd6d6;
-    }
-
-    .form-line-error .form-error-message {
-      background-color: #DC2626;
-      clear: both;
-      float: none;
-    }
-
-    .form-line-error .form-error-arrow {
-      border-bottom-color: #FF3200;
-    }
-
-    .form-line-error input:not(#coupon-input),
-    .form-line-error textarea,
-    .form-line-error .form-validation-error {
-      border: 1px solid #c61515;
-      box-shadow: 0 0 3px #c61515;
-    }
-   
-      
-    .supernova {
-      background-repeat: no-repeat;
-      background-size:cover;
-      background-attachment: fixed;
-      background-position: center top;
-    }
-
-      .supernova, #stage {
-        background-image: none;
+    <iframe
+      id="JotFormIFrame-240776993159170"
+      title="Plum - Post a project"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allow="geolocation; microphone; camera; fullscreen"
+      src="https://form.jotform.com/240776993159170"
+      frameborder="0"
+      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script type="text/javascript">
+    var ifr = document.getElementById("JotFormIFrame-240776993159170");
+    if (ifr) {
+      var src = ifr.src;
+      var iframeParams = [];
+      if (window.location.href && window.location.href.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
       }
-    
-      .form-all {
-        background-image: none;
+      if (src && src.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+        src = src.substr(0, src.indexOf("?"))
       }
-    /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
-    /* Injected CSS Code */
-</style>
-
-<form class="jotform-form" onsubmit="return typeof testSubmitFunction !== 'undefined' && testSubmitFunction();" action="https://submit.jotform.com/submit/240776993159170" method="post" name="form_240776993159170" id="240776993159170" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="240776993159170" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" /><input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1710802013501" /><input type="hidden" id="submitSource" name="submitSource" value="unknown" /><input type="hidden" id="buildDate" name="buildDate" value="1710802013501" />
-  <div role="main" class="form-all">
-    <ul class="form-section page-section">
-      <li id="cid_10" class="form-input-wide" data-type="control_head">
-        <div style="display:table;width:100%">
-          <div class="form-header-group hasImage header-large" data-imagealign="Left">
-            <div class="header-logo"><img src="https://www.jotform.com/uploads/hallecook15/form_files/a6d008d4-73a1-4722-855c-5f12985adda1%20%281%29.65f8bc60df8c49.22858950.png" alt="Post a project" width="125" class="header-logo-left" /></div>
-            <div class="header-text httac htvam">
-              <h1 id="header_10" class="form-header" data-component="header">Post a project</h1>
-              <div id="subHeader_10" class="form-subHeader">Simply fill out this form and we will email you personalized recommendations for your project. Please note, you do not have to input payment information until a student has started your project.</div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li class="form-line jf-required" data-type="control_fullname" id="id_11"><label class="form-label form-label-top form-label-auto" id="label_11" for="first_11" aria-hidden="false"> Name<span class="form-required">*</span> </label>
-        <div id="cid_11" class="form-input-wide jf-required" data-layout="full">
-          <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="first"><input type="text" id="first_11" name="q11_name[first]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_11 given-name" size="10" data-component="first" aria-labelledby="label_11 sublabel_11_first" required="" value="" /><label class="form-sub-label" for="first_11" id="sublabel_11_first" style="min-height:13px">First Name</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="last"><input type="text" id="last_11" name="q11_name[last]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_11 family-name" size="15" data-component="last" aria-labelledby="label_11 sublabel_11_last" required="" value="" /><label class="form-sub-label" for="last_11" id="sublabel_11_last" style="min-height:13px">Last Name</label></span></div>
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-1 jf-required" data-type="control_email" id="id_12"><label class="form-label form-label-top" id="label_12" for="input_12" aria-hidden="false"> E-mail<span class="form-required">*</span> </label>
-        <div id="cid_12" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="email" id="input_12" name="q12_email" class="form-textbox validate[required, Email]" data-defaultvalue="" autoComplete="section-input_12 email" style="width:310px" size="310" placeholder="ex: myname@example.com" data-component="email" aria-labelledby="label_12 sublabel_input_12" required="" value="" /><label class="form-sub-label" for="input_12" id="sublabel_input_12" style="min-height:13px">example@example.com</label></span> </div>
-      </li>
-      <li class="form-line form-line-column form-col-2 jf-required" data-type="control_phone" id="id_13"><label class="form-label form-label-top" id="label_13" for="input_13_full"> Phone Number<span class="form-required">*</span> </label>
-        <div id="cid_13" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="tel" id="input_13_full" name="q13_phoneNumber13[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" data-defaultvalue="" autoComplete="section-input_13 tel-national" style="width:310px" data-masked="true" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_13" required="" value="" /></span> </div>
-      </li>
-      <li class="form-line" data-type="control_textbox" id="id_18"><label class="form-label form-label-top form-label-auto" id="label_18" for="input_18" aria-hidden="false"> Business Name </label>
-        <div id="cid_18" class="form-input-wide" data-layout="half"> <input type="text" id="input_18" name="q18_businessName" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_18" value="" /> </div>
-      </li>
-      <li class="form-line" data-type="control_textbox" id="id_19"><label class="form-label form-label-top form-label-auto" id="label_19" for="input_19" aria-hidden="false"> Business Address </label>
-        <div id="cid_19" class="form-input-wide" data-layout="half"> <input type="text" id="input_19" name="q19_businessAddress" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_19" value="" /> </div>
-      </li>
-      <li class="form-line" data-type="control_textbox" id="id_20"><label class="form-label form-label-top form-label-auto" id="label_20" for="input_20" aria-hidden="false"> Business Industry </label>
-        <div id="cid_20" class="form-input-wide" data-layout="half"> <input type="text" id="input_20" name="q20_businessIndustry" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_20" value="" /> </div>
-      </li>
-      <li class="form-line" data-type="control_textarea" id="id_22"><label class="form-label form-label-top form-label-auto" id="label_22" for="input_22" aria-hidden="false"> Briefly describe your business </label>
-        <div id="cid_22" class="form-input-wide" data-layout="full"> <textarea id="input_22" class="form-textarea" name="q22_brieflyDescribe" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_22"></textarea> </div>
-      </li>
-      <li class="form-line" data-type="control_textarea" id="id_23"><label class="form-label form-label-top form-label-auto" id="label_23" for="input_23" aria-hidden="false"> Describe the project in detail </label>
-        <div id="cid_23" class="form-input-wide" data-layout="full"> <textarea id="input_23" class="form-textarea" name="q23_describeThe" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_23"></textarea> </div>
-      </li>
-      <li class="form-line" data-type="control_textbox" id="id_25"><label class="form-label form-label-top form-label-auto" id="label_25" for="input_25" aria-hidden="false"> Estimated total hours to complete the project </label>
-        <div id="cid_25" class="form-input-wide" data-layout="half"> <input type="text" id="input_25" name="q25_estimatedTotal" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_25" value="" /> </div>
-      </li>
-      <li class="form-line" data-type="control_textbox" id="id_26"><label class="form-label form-label-top form-label-auto" id="label_26" for="input_26" aria-hidden="false"> Total compensation for the project </label>
-        <div id="cid_26" class="form-input-wide" data-layout="half"> <input type="text" id="input_26" name="q26_totalCompensation" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_26" value="" /> </div>
-      </li>
-      <li class="form-line" data-type="control_button" id="id_9">
-        <div id="cid_9" class="form-input-wide" data-layout="full">
-          <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField"><button id="input_9" type="submit" class="form-submit-button form-submit-button-simple_grey submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Submit</button></div>
-        </div>
-      </li>
-      <li style="display:none">Should be Empty: <input type="text" name="website" value="" type="hidden" /></li>
-    </ul>
-  </div>
-  <script>
-    JotForm.showJotFormPowered = "new_footer";
-  </script>
-  <script>
-    JotForm.poweredByText = "Powered by Jotform";
-  </script><input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="240776993159170" />
-  <script type="text/javascript">
-    var all_spc = document.querySelectorAll("form[id='240776993159170'] .si" + "mple" + "_spc");
-    for (var i = 0; i < all_spc.length; i++)
-    {
-      all_spc[i].value = "240776993159170-240776993159170";
+      iframeParams.push("isIframeEmbed=1");
+      ifr.src = src + "?" + iframeParams.join('&');
     }
-  </script>
-</form>
-<link id=color-scheme-style href="https://cdn01.jotfor.ms/stylebuilder/static/color-scheme.css?v=3.3.52465" type="text/css" rel="stylesheet" /><script type="text/javascript">JotForm.ownerView=true;</script><script type="text/javascript">JotForm.isNewSACL=true;</script>
+    window.handleIFrameMessage = function(e) {
+      if (typeof e.data === 'object') { return; }
+      var args = e.data.split(":");
+      if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+      if (!iframe) { return; }
+      switch (args[0]) {
+        case "scrollIntoView":
+          iframe.scrollIntoView();
+          break;
+        case "setHeight":
+          iframe.style.height = args[1] + "px";
+          if (!isNaN(args[1]) && parseInt(iframe.style.minHeight) > parseInt(args[1])) {
+            iframe.style.minHeight = args[1] + "px";
+          }
+          break;
+        case "collapseErrorPage":
+          if (iframe.clientHeight > window.innerHeight) {
+            iframe.style.height = window.innerHeight + "px";
+          }
+          break;
+        case "reloadPage":
+          window.location.reload();
+          break;
+        case "loadScript":
+          if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+          var src = args[1];
+          if (args.length > 3) {
+              src = args[1] + ':' + args[2];
+          }
+          var script = document.createElement('script');
+          script.src = src;
+          script.type = 'text/javascript';
+          document.body.appendChild(script);
+          break;
+        case "exitFullscreen":
+          if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+          else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+          else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+          else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+          else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+          break;
+      }
+      var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+      if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+        var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+        iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+      }
+    };
+    window.isPermitted = function(originUrl, whitelisted_domains) {
+      var url = document.createElement('a');
+      url.href = originUrl;
+      var hostname = url.hostname;
+      var result = false;
+      if( typeof hostname !== 'undefined' ) {
+        whitelisted_domains.forEach(function(element) {
+            if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+                result = true;
+            }
+        });
+        return result;
+      }
+    };
+    if (window.addEventListener) {
+      window.addEventListener("message", handleIFrameMessage, false);
+    } else if (window.attachEvent) {
+      window.attachEvent("onmessage", handleIFrameMessage);
+    }
+    </script>
