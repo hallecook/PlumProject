@@ -14,5 +14,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
       }
     }
   });
-  
+
+<a href="studenprofile.html" onclick="window.open('student.html', '_self');">
+https://form.jotform.com/240777006747159 
+
+
+</a>
   
